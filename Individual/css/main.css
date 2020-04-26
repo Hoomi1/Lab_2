@@ -1,0 +1,26 @@
+#background{
+	position:absolute;
+	left: 17%;
+	width: 83%;
+	height: 100%;
+	z-index: -1;
+}
+.my-button:hover{
+	color:green;
+}
+form{
+	margin-top:5%;
+	color:black;
+}
+.stroke {
+    font: 1,5em Arial, sans-serif;
+    text-shadow: black 1px 1px 0, red 1px 1px 0,
+                 black -1px 1px 0, red 1px -1px 0;
+}
+
+P {
+ border: 2px solid red; /* Толщина рамки в пикселах,
+                           тип границы (в данном случае сплошная линия) и
+                           цвет линии */
+ padding: 5px; /* Расстояние от текста до рамки */
+}
